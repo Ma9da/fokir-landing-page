@@ -1,6 +1,7 @@
 import React from 'react'
-import client1 from "../../assets/images/blog1.jpg"
-import client3 from "../../assets/images/blog3.jpg"
+import client1 from "../../assets/images/client1.jpg"
+import client2 from "../../assets/images/client2.jpg"
+import "./client.css"
 function Client() {
     return (
         <section class="client">
@@ -36,7 +37,7 @@ function Client() {
                 {/* <!-- start --> */}
                 <div class="clientCard">
                     <figure class="clientImg">
-                        <img src={client3} alt=""/>
+                        <img src={client2} alt=""/>
                     </figure>
                     <div class="clientInfo">
                         <h1 class="clientName">alex ander</h1>
