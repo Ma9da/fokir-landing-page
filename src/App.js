@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Numbers from "./components/numbers/Numbers";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Client/>
     <Blog/>
     <Contact/>
+    <Footer/>
     </>
   );
 }
