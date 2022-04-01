@@ -8,52 +8,52 @@ import img6 from "../../assets/images/6.jpg"
 import "./portfolio.css"
 function Portfolio() {
     return (
-        <section class="portfolio">
-            <div class="container flex-container">
-                <div class="portfolioHeader">
-                    <h2 class="title">our portfolio</h2>
-                    <ul class="portfolioLinks">
-                        <li><button class="filterSelection active">all</button></li>
-                        <li><button class="filterSelection">graphic</button></li>
-                        <li><button class="filterSelection">web design</button></li>
-                        <li><button class="filterSelection">branding</button></li>
+        <section className="portfolio">
+            <div className="container flex-container">
+                <div className="portfolioHeader">
+                    <h2 className="title">our portfolio</h2>
+                    <ul className="portfolioLinks">
+                        <li><button className="filterSelection active">all</button></li>
+                        <li><button className="filterSelection">graphic</button></li>
+                        <li><button className="filterSelection">web design</button></li>
+                        <li><button className="filterSelection">branding</button></li>
                     </ul>
                 </div>
-                <div class="portfolioImgs">
-                    <figure class="all webdesign">
+                <div className="portfolioImgs">
+                    <figure className="all webdesign">
                         <img src={img1} alt="" />
-                        <div class="portfolioOvelay">
-                            <i class="fa-light fa-image"></i>
+                        <div className="portfolioOvelay">
+                            <i className="fa-light fa-image"></i>
                         </div>
                     </figure>
-                    <figure class="all branding graphic">
+                    <figure className="all branding graphic">
                         <img src={img2} alt="" />
-                        <div class="portfolioOvelay">
-                            <i class="fa-solid fa-video-arrow-up-right"></i>
+                        <div className="portfolioOvelay">
+                            <i className="fa-solid fa-video-arrow-up-right"></i>
                         </div>
                     </figure>
-                    <figure class="all graphic">
+                    <figure className="all graphic">
                         <img src={img3} alt="" />
-                        <div class="portfolioOvelay">
-                            <i class="fa-light fa-image"></i>
+                        <div className="portfolioOvelay">
+                            <i className="fa-light fa-image"></i>
                         </div>
                     </figure>
-                    <figure class="all webdesign graphic">
+                    <figure className="all webdesign graphic">
                         <img src={img4} alt="" />
-                        <div class="portfolioOvelay">
-                            <i class="fa-solid fa-video-arrow-up-right"></i>
+                        <div className="portfolioOvelay">
+                            <i className="fa-solid fa-video-arrow-up-right"></i>
                         </div>
                     </figure>
-                    <figure class="all webdesign graphic">
+                    <figure className="all webdesign graphic">
                         <img src={img5} alt="" />
-                        <div class="portfolioOvelay">
-                            <i class="fa-solid fa-link"></i>
+                        <div className="portfolioOvelay">
+                            <i className="fa-solid fa-link"></i>
                         </div>
                     </figure>
-                    <figure class="all branding graphic">
+                    <figure className="all branding graphic">
                         <img src={img6} alt="" />
-                        <div class="portfolioOvelay">
-                            <i class="fa-light fa-image"></i>
+                        <div className="portfolioOvelay">
+                            <i className="fa-light fa-image"></i>
                         </div>
                     </figure>
                 </div>
