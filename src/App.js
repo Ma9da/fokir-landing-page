@@ -1,3 +1,4 @@
+import Blog from "./components/blog/Blog";
 import Client from "./components/client/Client";
 import Hello from "./components/hello/Hello";
 import Hero from "./components/hero/Hero";
@@ -16,6 +17,7 @@ function App() {
     <Portfolio/>
     <Numbers/>
     <Client/>
+    <Blog/>
     </>
   );
 }
